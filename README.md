@@ -1,98 +1,101 @@
-# 📚 Praticando Python – Exercícios do Curso de Condicionais  <img src="https://github.com/RgoSL/Curso-Python-Alura/blob/main/Logo%20do%20Curso.png" alt="Praticando Python Logo" align = "center" width=40px /><br>
+# 📚 Practicing Python – Conditional Statements Course Exercises  <img src="https://github.com/RgoSL/Curso-Python-Alura/blob/main/Logo%20do%20Curso.png" alt="Practicing Python Logo" align="center" width=40px /><br>
 
-Abaixo estão organizados os links para cada exercício nesta branch ⬇️ Veja também o enunciado por trás de cada resolução 😉
+- ⬇️ Below are the organized links for each exercise in this branch
+- 😉 You can also check the problem statement behind each solution
 
 
 <!-- ÍNDICE DOS EXERCÍCIOS ⬇️ -->
-### 📇 Sumário :
+### 📇 Summary:
 <hr>
 
-### Exercício 1️⃣ 
-Bruno gerencia um pequeno comércio e quer saber qual produto teve o melhor desempenho de vendas no mês passado. Ele registrou a quantidade vendida de dois produtos: maçãs e bananas. Agora, ele precisa escrever um programa que identifique e exiba qual deles teve maior venda.
+### Exercise 1️⃣
+Bruno manages a small business and wants to know which product performed better in sales last month. He recorded the number of units sold for two products: apples and bananas. Now, he needs to write a program that identifies and displays which one had higher sales.
 
-Crie um programa que receba o número de vendas dos dois produtos e exiba uma mensagem indicando qual deles vendeu mais. Se as quantidades forem iguais, exiba uma mensagem dizendo que houve empate.
-- 1️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/monitorVendas.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Create a program that receives the sales numbers for both products and displays a message indicating which one sold more. If the quantities are the same, display a message saying there was a tie.
+- 1️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/monitorVendas.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
- ### Exercício 2️⃣
-Camila está organizando um projeto e precisa calcular o tempo total necessário para concluir três atividades: A, B e C. No entanto, se alguma atividade tiver um número de dias negativo, o código deve avisar que os valores inseridos são inválidos e não calcular o total.
+### Exercise 2️⃣
+Camila is organizing a project and needs to calculate the total time required to complete three activities: A, B, and C. However, if any activity has a negative number of days, the code should warn that the entered values are invalid and should not calculate the total.
 
-Escreva um programa que receba o número de dias de três atividades e exiba o tempo total do projeto. Se algum valor for negativo, mostre uma mensagem informando o erro.
-- 2️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/tempoProjeto.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Write a program that receives the number of days for three activities and displays the total project time. If any value is negative, show an error message.
+- 2️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/tempoProjeto.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 3️⃣
-Lucas trabalha em TI e precisa garantir que a temperatura de uma sala de servidores não ultrapasse 25°C. 
+### Exercise 3️⃣
+Lucas works in IT and needs to ensure that the temperature of a server room does not exceed 25°C.
 
-Ele quer um programa que receba a temperatura atual como entrada e, se necessário, exiba uma mensagem de alerta.
-- 3️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/temperaturaServidor.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+He wants a program that receives the current temperature as input and, if necessary, displays an alert message.
+- 3️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/temperaturaServidor.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
- ### Exercício 4️⃣
-Anna Júlia está criando um sistema para calcular o Índice de Massa Corporal (IMC) e fornecer recomendações básicas. O programa deve receber o peso e a altura de uma pessoa e exibir o valor do IMC, além de indicar se está abaixo do peso, com peso normal ou acima do peso.
+### Exercise 4️⃣
+Anna Júlia is creating a system to calculate the Body Mass Index (BMI) and provide basic recommendations. The program should receive a person’s weight and height and display the BMI value, as well as indicate whether the person is underweight, at a normal weight, or overweight.
 
-Crie um programa que receba o peso (em kg) e a altura (em metros) e calcule o IMC usando a fórmula: IMC = peso / (altura ** 2) Depois, exiba o valor do IMC e uma mensagem indicando se está abaixo do peso (IMC < 18.5),
-peso normal (18.5 <= IMC < 25) ou acima do peso (IMC >= 25).
-- 4️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/calculoImc.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Create a program that receives the weight (in kg) and height (in meters) and calculates the BMI using the formula:  
+**BMI = weight / (height ** 2)**  
+
+Then display the BMI value and a message indicating whether the person is underweight (BMI < 18.5),  
+normal weight (18.5 ≤ BMI < 25), or overweight (BMI ≥ 25).
+- 4️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/calculoImc.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
- ### Exercício 5️⃣
-Carlos quer monitorar seu orçamento mensal para evitar gastos excessivos. Ele estabeleceu um limite de R$ 3.000,00 para seus gastos e precisa de um programa que ajude a controlar suas despesas. 
+### Exercise 5️⃣
+Carlos wants to monitor his monthly budget to avoid overspending. He set a limit of R$ 3,000.00 for his expenses and needs a program to help control his spending.
 
-O programa deve receber o total de despesas realizadas e informar se ele ultrapassou o limite ou ainda está dentro do orçamento.
-- 5️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/controleMensal.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+The program should receive the total expenses and inform whether he has exceeded the limit or is still within the budget.
+- 5️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/controleMensal.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 6️⃣
-Mariana é responsável por liberar o acesso ao escritório e precisa de um programa que verifique se os funcionários podem entrar. Para isso, ela usará o horário atual. O escritório só permite acesso entre 8h e 18h.
+### Exercise 6️⃣
+Mariana is responsible for granting access to the office and needs a program that checks whether employees are allowed to enter. For this, she will use the current time. The office only allows access between 8 a.m. and 6 p.m.
 
-Crie um programa que receba a hora atual como entrada (em formato de 24 horas) e exiba uma mensagem informando se o acesso é permitido ou negado.
-- 6️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/controleAcesso.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Create a program that receives the current hour as input (in 24-hour format) and displays a message indicating whether access is allowed or denied.
+- 6️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/controleAcesso.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 7️⃣
-Uma professora precisa de um programa que ajude a calcular a média final dos alunos e informe se foram aprovados, ficaram de recuperação ou reprovados. As regras são:
+### Exercise 7️⃣
+A teacher needs a program that helps calculate students’ final averages and informs whether they passed, need to take a recovery exam, or failed. The rules are:
 
-Média >= 7: Aprovado
-5 <= Média < 7: Recuperação
-Média < 5: Reprovado
+- Average ≥ 7: Passed  
+- 5 ≤ Average < 7: Recovery  
+- Average < 5: Failed  
 
-Escreva um programa que receba três notas como entrada e calcule a média final. Com base na média, exiba a situação do aluno.
-- 7️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/alunoAprovado.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Write a program that receives three grades as input and calculates the final average. Based on the average, display the student’s status.
+- 7️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/alunoAprovado.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 8️⃣ 
-Fernanda está planejando uma viagem e quer calcular quanto pagará de pedágio. O valor do pedágio depende da distância percorrida:
+### Exercise 8️⃣
+Fernanda is planning a trip and wants to calculate how much she will pay in toll fees. The toll value depends on the distance traveled:
 
-Até 100 km: R$ 10,00
-Entre 100 km e 200 km: R$ 20,00
-Acima de 200 km: R$ 30,00
+- Up to 100 km: R$ 10.00  
+- Between 100 km and 200 km: R$ 20.00  
+- Over 200 km: R$ 30.00  
 
-Crie um programa que receba a distância percorrida e informe o valor do pedágio correspondente.
-- 8️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/calculoPedagio.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Create a program that receives the distance traveled and informs the corresponding toll fee.
+- 8️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/calculoPedagio.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 9️⃣
-Lucas está desenvolvendo um jogo e precisa de uma funcionalidade que verifique se um número é par ou ímpar. Essa verificação será usada para definir ações diferentes dentro do jogo. 
+### Exercise 9️⃣
+Lucas is developing a game and needs a feature that checks whether a number is even or odd. This check will be used to define different actions within the game.
 
-Escreva um programa que receba um número inteiro e exiba uma mensagem informando se ele é par ou ímpar.
-- 9️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/numeroPar.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Write a program that receives an integer and displays a message indicating whether it is even or odd.
+- 9️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/numeroPar.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 🔟 
-Pedro quer solicitar um empréstimo, mas a aprovação depende de duas condições:
+### Exercise 🔟
+Pedro wants to apply for a loan, but approval depends on two conditions:
 
-O valor da renda mensal precisa ser maior que R$ 2.000,00.
-O valor da parcela não pode ultrapassar 30% da renda.
+- The monthly income must be greater than R$ 2,000.00.
+- The installment amount must not exceed 30% of the income.
 
-Crie um programa que receba como entrada a renda mensal de Pedro e o valor da parcela desejada. O programa deve informar se o empréstimo foi aprovado ou negado com base nas condições acima.
-- 🔟 [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/avalEmprestimo.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Create a program that receives Pedro’s monthly income and the desired installment amount as input. The program should inform whether the loan was approved or denied based on the conditions above.
+- 🔟 [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/avalEmprestimo.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
-
 <!-- SESSÃO DE REFERÊNCIAS ⬇️ -->
 
-### 📘 REFERÊNCIAS
+### 📘 REFERENCES
 
-- 📃 [Meu Certificado](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/Certificado%20Curso%20Praticando%20Python%20Condicionais%20-%20Alura.pdf)  
-- 🎓 [Curso da Alura](https://www.alura.com.br/formacao-praticando-python)
-  
+- 📃 [My Certificate](https://github.com/RgoSL/Curso-Python-Alura/blob/Condicionais/Certificado%20Curso%20Praticando%20Python%20Condicionais%20-%20Alura.pdf)  
+- 🎓 [Alura Course](https://www.alura.com.br/formacao-praticando-python)
+---
