@@ -1,94 +1,96 @@
-# 📚 Praticando Python – Exercícios do Curso de Laços  <img src="https://github.com/RgoSL/Curso-Python-Alura/blob/main/Logo%20do%20Curso.png" alt="Praticando Python Logo" align = "center" width=40px /><br>
+# 📚 Practicing Python – Loop Exercises Course  <img src="https://github.com/RgoSL/Curso-Python-Alura/blob/main/Logo%20do%20Curso.png" alt="Practicing Python Logo" align="center" width=40px /><br>
 
-Abaixo estão organizados os links para cada exercício nesta branch ⬇️ Veja também o enunciado por trás de cada resolução 😉
+- ⬇️ Below are the organized links for each exercise in this branch 
+- 😉 You can also check the problem statement behind each solution 
 
 
-<!-- ÍNDICE DOS EXERCÍCIOS ⬇️ -->
-### 📇 Sumário :
+<!-- EXERCISES INDEX ⬇️ -->
+### 📇 Summary:
 <hr>
 
-### Exercício 1️⃣ 
-Ana está desenvolvendo um programa que precisa processar uma lista de 5 nomes de clientes para gerar relatórios mensais. Para isso, ela precisa escrever um programa que percorra a lista de nomes e exiba cada cliente.
+### Exercise 1️⃣
+Ana is developing a program that needs to process a list of 5 client names to generate monthly reports. To do this, she needs to write a program that iterates through the list of names and displays each client.
 
-Ajude Ana a decidir entre usar um laço for ou while. Escreva o programa usando o laço que você acredita ser mais adequado para essa tarefa e explique por que escolheu esse laço.
-- 1️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/escolhaLoop.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Help Ana decide between using a **for** loop or a **while** loop. Write the program using the loop you believe is most appropriate for this task and explain why you chose that loop.
+- 1️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/escolhaLoop.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
- ### Exercício 2️⃣
-André está testando um novo recurso no backend do Buscante que processa dados em um loop. Durante os testes, ele percebeu que o sistema parou de responder, e suspeita que o problema está em um loop infinito.
+### Exercise 2️⃣
+André is testing a new backend feature in Buscante that processes data inside a loop. During testing, he noticed that the system stopped responding and suspects the issue is related to an infinite loop.
 
-Qual é o problema do código de André e como resolver?
-- 2️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/loopInfinito.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+What is the problem with André’s code and how can it be fixed?
+- 2️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/loopInfinito.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 3️⃣
-Marcos está desenvolvendo um programa para exibir uma mensagem de boas-vindas repetidamente no console, como parte de uma campanha de marketing de sua plataforma chamada Buscante. Ele quer garantir que a mensagem seja exibida 5 vezes.
+### Exercise 3️⃣
+Marcos is developing a program to repeatedly display a welcome message in the console as part of a marketing campaign for his platform called Buscante. He wants to make sure the message is displayed exactly 5 times.
 
-Ajude Marcos a escrever um programa que exiba a mensagem: "Bem-vindo ao Buscante!" o número exato de vezes que ele precisa.
-- 3️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/repetirMsg.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Help Marcos write a program that displays the message: **"Welcome to Buscante!"** the exact number of times he needs.
+- 3️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/repetirMsg.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
- ### Exercício 4️⃣
-Você está recebendo uma lista de valores representando os produtos de sua loja virtual e gostaria de calcular a soma total desses produtos para entender o desempenho financeiro semanal.
+### Exercise 4️⃣
+You are given a list of values representing the products in your online store and would like to calculate the total sum of these products to understand your weekly financial performance.
 
-Crie um programa para implementar a soma.
-- 4️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/somaNumeros.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Create a program to implement this sum.
+- 4️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/somaNumeros.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
- ### Exercício 5️⃣
-Ana está desenvolvendo seu portfólio para exibir os projetos de Python que concluiu. Ela organizou uma lista com o nome de cada projeto, mas percebeu que alguns itens podem estar ausentes, aparecendo como None:
+### Exercise 5️⃣
+Ana is developing her portfolio to showcase the Python projects she has completed. She organized a list with the name of each project, but noticed that some items might be missing, appearing as `None`.
 
-Crie um programa que ajude Ana a percorrer a lista de projetos e exiba os nomes dos projetos válidos. Se encontrar um item None, o programa deve exibir a mensagem: "Projeto ausente".
-- 5️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/organizandoPort.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Create a program that helps Ana iterate through the list of projects and display the names of the valid projects. If a `None` item is found, the program should display the message: **"Missing project"**.
+- 5️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/organizandoPort.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 6️⃣
-José está desenvolvendo uma funcionalidade no sistema do Buscante para interromper a busca assim que um livro específico é encontrado. A lista de livros já cadastrados no sistema é a seguinte:
+### Exercise 6️⃣
+José is developing a feature in the Buscante system to stop a search as soon as a specific book is found. The list of books already registered in the system is provided.
 
-Ajude José a criar um programa que percorra a lista e exiba a mensagem "Livro encontrado: <nome do livro>" assim que o livro "O Hobbit" for encontrado. Após encontrar o livro, o programa deve parar imediatamente a busca, sem verificar os livros restantes.
-- 6️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/usandoBreak.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Help José create a program that iterates through the list and displays the message **"Book found: <book name>"** as soon as the book **"The Hobbit"** is found. After finding the book, the program must immediately stop the search without checking the remaining books.
+- 6️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/usandoBreak.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 7️⃣
-Você está desenvolvendo um sistema de controle de estoque para o Buscante. Um dos requisitos é verificar a quantidade de exemplares de um livro em estoque e continuar vendendo até que o estoque se esgote. Sempre que uma venda é realizada, o sistema deve informar o usuário e atualizar a quantidade disponível.
+### Exercise 7️⃣
+You are developing an inventory control system for Buscante. One of the requirements is to check the quantity of book copies in stock and continue selling until the stock runs out. Every time a sale is made, the system must notify the user and update the available quantity.
 
-Crie um programa que simule as vendas de um livro com o estoque inicial de 5 exemplares. O programa deve exibir a mensagem "Venda realizada! Estoque restante: <quantidade>" a cada venda e, ao final, exibir a mensagem "Estoque esgotado".
-- 7️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/controleEstoque.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Create a program that simulates the sale of a book with an initial stock of 5 copies. The program should display the message **"Sale completed! Remaining stock: <quantity>"** after each sale and, at the end, display the message **"Out of stock"**.
+- 7️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/controleEstoque.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 8️⃣ 
-Aline está implementando uma funcionalidade que exibe mensagens personalizadas para os clientes durante uma promoção especial da sua nova loja de livros. O sistema deve exibir uma mensagem de contagem regressiva personalizada para cada número de 10 até 1, e ao final exibir a mensagem: "Aproveite a promoção agora!".
+### Exercise 8️⃣
+Aline is implementing a feature that displays personalized messages for customers during a special promotion in her new bookstore. The system should display a customized countdown message for each number from 10 to 1, and at the end display the message: **"Take advantage of the promotion now!"**.
 
-Crie um programa que utilize um laço for para exibir as seguintes mensagens:
+Create a program that uses a **for** loop to display the following messages:
 
-Para números pares, exiba: "Faltam apenas <número> segundos - Não perca essa oportunidade!".
-Para números ímpares, exiba: "A contagem continua: <número> segundos restantes.".
-Ao final da contagem, exiba a mensagem: "Aproveite a promoção agora!".
-- 8️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/contagemRegressiva.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+- For even numbers, display: **"Only <number> seconds left – Don’t miss this opportunity!"**  
+- For odd numbers, display: **"The countdown continues: <number> seconds remaining."**  
+
+At the end of the countdown, display the message: **"Take advantage of the promotion now!"**.
+- 8️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/contagemRegressiva.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 9️⃣
-Ana está implementando um sistema de filtragem de livros no Buscante. A funcionalidade deve percorrer uma lista de livros e exibir o nome de cada livro disponível em estoque. No entanto, se o livro estiver esgotado, ele deve ser ignorado durante a iteração.
+### Exercise 9️⃣
+Ana is implementing a book filtering system in Buscante. The feature should iterate through a list of books and display the name of each book that is available in stock. However, if a book is out of stock, it should be ignored during the iteration.
 
-Crie um programa que ajude Ana a exibir somente os livros que possuem estoque disponível, no formato: "Livro disponível: ".
-- 9️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/filtroContinue.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Create a program that helps Ana display only the books that have available stock, using the format: **"Available book: "**.
+- 9️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/filtroContinue.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 🔟 
-João está desenvolvendo um sistema de cadastro para um site de leitura. Ele precisa garantir que os usuários insiram um nome de usuário e uma senha válidos. As regras são as seguintes:
+### Exercise 🔟
+João is developing a registration system for a reading website. He needs to ensure that users enter a valid username and password. The rules are as follows:
 
-O nome de usuário deve ter pelo menos 5 caracteres.
-A senha deve ter pelo menos 8 caracteres.
-João quer que o sistema continue solicitando as informações até que ambas as condições sejam atendidas. Quando o usuário insere dados válidos, o programa deve exibir a mensagem: "Cadastro realizado com sucesso!".
+- The username must have at least 5 characters.
+- The password must have at least 8 characters.
 
-Crie um programa que implemente essa lógica usando um laço while.
-- 🔟 [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/criarConta.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+João wants the system to keep requesting the information until both conditions are met. When the user enters valid data, the program should display the message: **"Registration completed successfully!"**.
+
+Create a program that implements this logic using a **while** loop.
+- 🔟 [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/criarConta.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-<!-- SESSÃO DE REFERÊNCIAS ⬇️ -->
+<!-- REFERENCES SECTION ⬇️ -->
 
-### 📘 REFERÊNCIAS
+### 📘 REFERENCES
 
-- 📃 [Meu Certificado](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/Certificado%20Curso%20Praticando%20Python%20Laços%20-%20Alura.pdf)  
-- 🎓 [Curso da Alura](https://www.alura.com.br/formacao-praticando-python)
-  
+- 📃 [My Certificate](https://github.com/RgoSL/Curso-Python-Alura/blob/Laços/Certificado%20Curso%20Praticando%20Python%20Laços%20-%20Alura.pdf)  
+- 🎓 [Alura Course](https://www.alura.com.br/formacao-praticando-python)
