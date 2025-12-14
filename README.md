@@ -1,100 +1,101 @@
-# 📚 Praticando Python – Exercícios do Curso de Expressões Regulares  <img src="https://github.com/RgoSL/Curso-Python-Alura/blob/main/Logo%20do%20Curso.png" alt="Praticando Python Logo" align = "center" width=40px /><br>
+# 📚 Practicing Python – Regular Expressions Course Exercises  <img src="https://github.com/RgoSL/Curso-Python-Alura/blob/main/Logo%20do%20Curso.png" alt="Practicing Python Logo" align="center" width=40px /><br>
 
-Abaixo estão organizados os links para cada exercício nesta branch ⬇️ Veja também o enunciado por trás de cada resolução 😉
+- ⬇️ Below are the organized links for each exercise in this branch 
+- 😉 You can also check the problem statement behind each solution 
 
 
 <!-- ÍNDICE DOS EXERCÍCIOS ⬇️ -->
-### 📇 Sumário :
+### 📇 Summary:
 <hr>
 
-### Exercício 1️⃣ 
-Victor trabalha em um sistema de e-commerce e precisa organizar os nomes dos produtos que estão sendo cadastrados pelos lojistas. Esses nomes geralmente vêm com letras misturadas entre maiúsculas e minúsculas, além de espaços desnecessários no início e no final.
+### Exercise 1️⃣
+Victor works in an e-commerce system and needs to organize the names of products being registered by sellers. These names usually come with a mix of uppercase and lowercase letters, as well as unnecessary spaces at the beginning and end.
 
-Ajude Victor a criar um programa que receba um nome de produto e o padronize, deixando todas as letras minúsculas e removendo os espaços extras.
-- 1️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/nomesProdutos.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Help Victor create a program that receives a product name and standardizes it by converting all letters to lowercase and removing extra spaces.
+- 1️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/nomesProdutos.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
- ### Exercício 2️⃣
-Rafaela trabalha na área de marketing e quer criar mensagens personalizadas para os clientes. Ela precisa de um programa que permita exibir saudações baseadas no nome do cliente e na cidade onde ele mora.
+### Exercise 2️⃣
+Rafaela works in the marketing field and wants to create personalized messages for customers. She needs a program that allows her to display greetings based on the customer’s name and the city where they live.
 
-Crie um programa que solicite o nome e a cidade de um cliente e exiba uma mensagem de boas-vindas personalizada.
-- 2️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/formatarMsg.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Create a program that asks for the customer’s name and city and displays a personalized welcome message.
+- 2️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/formatarMsg.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 3️⃣
-Imagine que você precisa criar uma funcionalidade para um jogo, onde os jogadores recebem dicas baseadas em partes específicas de uma palavra-chave. Sua missão é desenvolver um programa que extraia trechos importantes de qualquer palavra digitada.
+### Exercise 3️⃣
+Imagine you need to create a feature for a game where players receive hints based on specific parts of a keyword. Your mission is to develop a program that extracts important segments from any word entered.
 
-Escreva um programa que solicite ao usuário uma palavra e exiba as três primeiras e as três últimas letras.
-- 3️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/decifrarPalavra.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Write a program that asks the user for a word and displays the first three and the last three letters.
+- 3️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/decifrarPalavra.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
- ### Exercício 4️⃣
-Renan está desenvolvendo um sistema que verifica se os links de sites parceiros começam com https:// e terminam com .com. Esses critérios são obrigatórios para que o site seja aprovado no cadastro. 
+### Exercise 4️⃣
+Renan is developing a system that checks whether partner website links start with **https://** and end with **.com**. These criteria are mandatory for the website to be approved during registration.
 
-Ajude Renan a criar um programa que realize essa validação de forma automática.
+Help Renan create a program that performs this validation automatically.
 
-Como você escreveria um programa que peça ao usuário uma URL e informe se ela é válida ou inválida?
-- 4️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/validarURL.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+How would you write a program that asks the user for a URL and informs whether it is valid or invalid?
+- 4️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/validarURL.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
- ### Exercício 5️⃣
-João é atendente em uma farmácia e precisa verificar se um cliente forneceu um número de receita válido em uma descrição. O número da receita é sempre o único número presente no texto fornecido pelo cliente. 
+### Exercise 5️⃣
+João is a pharmacy attendant and needs to check whether a customer provided a valid prescription number within a description. The prescription number is always the only number present in the text provided by the customer.
 
-Ele quer um programa que extraia esse número diretamente e confirme se o texto está correto, sem a necessidade de trabalhar com listas ou loops.
+He wants a program that extracts this number directly and confirms that the text is correct, without the need to work with lists or loops.
 
-Com base nesse cenário, crie um programa que receba um texto com uma descrição e exiba uma mensagem com o número encontrado.
-- 5️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/encontrarNum.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Based on this scenario, create a program that receives a descriptive text and displays a message with the number found.
+- 5️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/encontrarNum.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 6️⃣
-Nathalia é uma escritora que está revisando um texto para publicação. Durante o processo, ela percebeu que usou a palavra "bom" repetidamente, quando queria expressar algo mais forte, como "ótimo".
+### Exercise 6️⃣
+Nathalia is a writer who is revising a text for publication. During the process, she realized she repeatedly used the word **"good"** when she wanted to express something stronger, such as **"great"**.
 
-Para economizar tempo, Nathalia quer substituir automaticamente todas as ocorrências da palavra "bom" por "ótimo" no texto.
+To save time, Nathalia wants to automatically replace all occurrences of the word **"good"** with **"great"** in the text.
 
-Ajude Nathalia a criar um programa que solicite um texto, a palavra que será substituída e a nova palavra. O programa deve exibir o texto com as alterações aplicadas.
-- 6️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/revisarTexto.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Help Nathalia create a program that asks for a text, the word to be replaced, and the new word. The program should display the text with the applied changes.
+- 6️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/revisarTexto.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 7️⃣
-Lorena trabalha no setor de cadastros de uma empresa e precisa garantir que os nomes inseridos pelos clientes estejam no formato correto. 
+### Exercise 7️⃣
+Lorena works in the registration department of a company and needs to ensure that the names entered by customers are in the correct format.
 
-O padrão esperado é que os nomes comecem com uma letra maiúscula e contenham apenas letras (sem números ou caracteres especiais). Para facilitar o trabalho, ela quer um programa que valide automaticamente os nomes fornecidos.
+The expected pattern is that names start with an uppercase letter and contain only letters (no numbers or special characters). To make the process easier, she wants a program that automatically validates the provided names.
 
-Ajude a Lorena criando um programa que solicite um nome ao usuário e verifique se ele atende às regras.
-- 7️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/validarNomes.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Help Lorena by creating a program that asks the user for a name and checks whether it meets the rules.
+- 7️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/validarNomes.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 8️⃣ 
-Sara trabalha no setor de atendimento de uma empresa e precisa verificar rapidamente se os clientes estão digitando seus números de CPF no formato correto antes de registrar os dados no sistema.
+### Exercise 8️⃣
+Sara works in a customer support department and needs to quickly verify whether customers are entering their CPF numbers in the correct format before registering the data in the system.
 
-O formato esperado do CPF é: três blocos de 3 dígitos separados por pontos (.), seguidos por um bloco de 2 dígitos separados por um traço (-).
+The expected CPF format is: three blocks of 3 digits separated by dots (**.**), followed by a block of 2 digits separated by a hyphen (**-**).
 
-Ajude Sara a criar um programa que solicite o CPF de um cliente e verifica se ele está no formato correto.
-- 8️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/formatarCPF.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Help Sara create a program that asks for a customer’s CPF and checks whether it is in the correct format.
+- 8️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/formatarCPF.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 9️⃣
-Você trabalha em uma biblioteca e está organizando os títulos de livros no sistema. Você precisa identificar todos os títulos que possuem palavras iniciadas por uma determinada letra, para criar coleções temáticas baseadas em letras específicas.
+### Exercise 9️⃣
+You work in a library and are organizing book titles in the system. You need to identify all titles that contain words starting with a specific letter, in order to create thematic collections based on specific letters.
 
-Por exemplo, você poderia usar isso para agrupar livros com palavras que começam com a mesma letra, ajudando na organização ou em campanhas como “Livros com A para você!”.
+For example, this could be used to group books with words that start with the same letter, helping with organization or campaigns such as *“Books starting with A just for you!”*.
 
-Como você criaria um programa que solicita um texto e uma letra inicial e retorna todas as palavras do texto que começam com essa letra?
-- 9️⃣ [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/palavrasEspecificas.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+How would you create a program that asks for a text and an initial letter and returns all the words in the text that start with that letter?
+- 9️⃣ [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/palavrasEspecificas.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
-### Exercício 🔟 
-Carlos é analista de dados em um hospital e está organizando informações de pacientes em um banco de dados. Ele recebe os dados no formato: "PrimeiroNome Sobrenome - Ano". Por exemplo, “Monalisa Silva - 1994”.
+### Exercise 🔟
+Carlos is a data analyst at a hospital and is organizing patient information in a database. He receives the data in the format: **"FirstName LastName - Year"**. For example, *“Monalisa Silva - 1994”*.
 
-Carlos precisa de um programa que leia as informações, capture cada parte separadamente, nome, o sobrenome e o ano de nascimento para preencher os campos do sistema.
+Carlos needs a program that reads the information and captures each part separately: first name, last name, and year of birth, to fill in the system fields.
 
-Ajude Carlos criando um programa que solicite o nome completo e o ano de nascimento de um paciente e exiba-os separadamente.
-- 🔟 [Exercicio](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/agruparPacientes.py) <!-- ⬅️ LINK PARA OS RESPECTIVOS EXERCÍCIOS -->
+Help Carlos by creating a program that asks for a patient’s full name and year of birth and displays them separately.
+- 🔟 [Exercise](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/agruparPacientes.py) <!-- ⬅️ LINK TO THE CORRESPONDING EXERCISE -->
 <hr>
 
 <!-- SESSÃO DE REFERÊNCIAS ⬇️ -->
 
-### 📘 REFERÊNCIAS
+### 📘 REFERENCES
 
-- 📃 [Meu Certificado](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/Certificado%20Curso%20Praticando%20Python%20Regex%20-%20Alura.pdf)  
-- 🎓 [Curso da Alura](https://www.alura.com.br/formacao-praticando-python)
-  
+- 📃 [My Certificate](https://github.com/RgoSL/Curso-Python-Alura/blob/Regex/Certificado%20Curso%20Praticando%20Python%20Regex%20-%20Alura.pdf)  
+- 🎓 [Alura Course](https://www.alura.com.br/formacao-praticando-python)
+---
